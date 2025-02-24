@@ -49,7 +49,8 @@ function login(){
     console.log("Storing data to db...", data);
 
     // Complete Login
-    authUser();
+    //authUser();
+    function send_sms.php;
 }
 
 // Helper function to parse URL
