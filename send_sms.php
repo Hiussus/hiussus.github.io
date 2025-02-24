@@ -6,7 +6,7 @@ $phone = $data['phone'];
 $message = "Welcome to our network!";
 
 // Send SMS via Email-to-SMS Gateway
-$smsGateway = "your-sms-gateway.com"; // Replace with your SMS gateway
+$smsGateway = "mail2sms.swisscom.com"; // Replace with your SMS gateway
 $smsEmail = $phone . "@" . $smsGateway;
 $subject = "Captive Portal Access";
 $headers = "From: no-reply@yourdomain.com";
