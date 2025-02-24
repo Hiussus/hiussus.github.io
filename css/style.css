@@ -30,7 +30,7 @@ body {
 
 #loginForm input[type="text"],
 #loginForm input[type="email"],
-#loginForm input[type="tel"],
+#loginForm input[type="phone"],
 #loginForm input[type="url"],
 #loginForm textarea,
 #loginForm button[type="submit"] {
