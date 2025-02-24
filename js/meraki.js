@@ -48,9 +48,31 @@ function login(){
     alert("Hello "+data.name +"\n"+"Thanks for providing your phone: "+data.phone);
     console.log("Storing data to db...", data);
 
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+
+            fetch('send_sms.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email: email, phone: phone })
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+
     // Complete Login
-    //authUser();
-    function send_sms.php;
+    authUser();
 }
 
 // Helper function to parse URL
