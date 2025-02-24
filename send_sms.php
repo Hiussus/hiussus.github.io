@@ -9,7 +9,7 @@ $message = "Welcome to our network!";
 $smsGateway = "mail2sms.swisscom.com"; // Replace with your SMS gateway
 $smsEmail = $phone . "@" . $smsGateway;
 $subject = "Captive Portal Access";
-$headers = "From: no-reply@yourdomain.com";
+$headers = "From: timeout.alarm@schulen-frauenfeld.ch";
 
 if (mail($smsEmail, $subject, $message, $headers)) {
     echo "SMS sent successfully!";
