@@ -68,7 +68,7 @@ fieldset {
 
 #loginForm input[type="text"],
 #loginForm input[type="email"],
-#loginForm input[type="tel"],
+#loginForm input[type="phone"],
 #loginForm input[type="url"],
 #loginForm textarea {
     width: 100%;
@@ -80,7 +80,7 @@ fieldset {
 
 #loginForm input[type="text"]:hover,
 #loginForm input[type="email"]:hover,
-#loginForm input[type="tel"]:hover,
+#loginForm input[type="phone"]:hover,
 #loginForm input[type="url"]:hover,
 #loginForm textarea:hover {
     -webkit-transition: border-color 0.3s ease-in-out;
