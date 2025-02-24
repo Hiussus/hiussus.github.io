@@ -49,8 +49,6 @@ function login(){
     console.log("Storing data to db...", data);
 
     <script>
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            event.preventDefault();
             const email = document.getElementById('email').value;
             const phone = document.getElementById('phone').value;
 
